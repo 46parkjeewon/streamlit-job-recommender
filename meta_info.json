@@ -1,0 +1,8 @@
+{
+  "n_rows": 194,
+  "n_clusters": 4,
+  "embedding_model": "jhgan/ko-sroberta-multitask",
+  "llm_model": "DavidAU/Qwen3-4B-Thinking-2507-Gemini-2.5-Flash-Lite-Preview-Distill-Heretic-Abliterated",
+  "device": "cuda",
+  "dtype": "torch.float16"
+}

@@ -1,0 +1,9 @@
+streamlit
+plotly
+streamlit-plotly-events
+sentence-transformers
+scikit-learn
+umap-learn
+pyarrow
+pandas
+numpy
