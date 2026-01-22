@@ -105,13 +105,13 @@
       *	클러스터 평균/세부직무 평균을 6축 평균 점수로 계산하여 레이더 및 표로 제공함 
       *	선택된 클러스터/세부직무 내부에서 6역량 합 상위 N개를 Top-N으로 선정하고, Top-N 평균 레이더 및 Top-N 리스트를 제공함 
 
-## 💡 Usage
+## 💡 사용 방법
 *	Streamlit 환경에서의 원활한 실행과 응답 속도 확보를 위해, LLM이 필요한 연산 과정은 사전에 로컬 환경에서 실행한 후 결과 파일을 불러오는 구조로 설계함
 *	final_df_2는 채용공고 크롤링·OCR·전처리 및 세부직무 분류까지 완료된 최종 데이터 파일임
 *	llm_6_skills_cache.json, meta_info.json은 LLM 기반 6대 핵심역량 산출 결과를 저장한 파일임
 *	precomputed_job_map.parquet은 임베딩·클러스터링·UMAP을 통해 계산된 직무 유사도 결과 파일임
-*	위 파일들을 지정된 경로에 저장한 후, 해당 디렉터리에서 아래 명령어를 실행하면 Streamlit 대시보드를 확인할 수 있음
-*	streamlit run app.py
+*	위 파일들을 지정된 경로에 저장한 후, 해당 디렉터리에서 명령어(streamlit run app.py)를 실행하면 Streamlit 대시보드를 확인할 수 있음
+  
 
 ## 🚀 Tech Stack
 🔤 자연어 처리 (NLP)
