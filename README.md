@@ -1,4 +1,5 @@
 # streamlit-job-recommender
+👉 Streamlit Demo : https://app-job-recommender-ccdemlgde77v9cnc8gtfsq.streamlit.app/
 
 # 프로젝트 개요
 *	동국대학교 2025년도 1차 대학원 프로젝트 지원사업의 지원으로 진행된 프로젝트임.
